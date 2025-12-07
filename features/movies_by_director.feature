@@ -32,3 +32,18 @@ Scenario: can't find similar movies if we don't know director (sad path)
   When  I follow "Find Movies With Same Director"
   Then  I should be on the home page
   And   I should see "'Alien' has no director info"
+
+Scenario: create a new movie
+  Given I am on the home page
+  When  I follow "Add new movie"
+  And   I fill in "Title" with "Metropolis"
+  And   I fill in "Director" with "Fritz Lang"
+  And   I press "Save Changes"
+  Then  I should be on the home page
+  And   I should see "Metropolis was successfully created."
+
+Scenario: delete a movie
+  Given I am on the details page for "Star Wars"
+  When  I follow "Delete"
+  Then  I should be on the home page
+  And   I should see "Movie 'Star Wars' deleted."
