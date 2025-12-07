@@ -1,0 +1,19 @@
+current directory: /home/hanqiliu/chips_8_9/BDD-to-Drive-a-New-Feature/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug
+/home/hanqiliu/.rbenv/versions/2.6.6/bin/ruby -I /home/hanqiliu/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20251206-43792-1e7lols.rb extconf.rb
+creating Makefile
+
+current directory: /home/hanqiliu/chips_8_9/BDD-to-Drive-a-New-Feature/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/hanqiliu/chips_8_9/BDD-to-Drive-a-New-Feature/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/hanqiliu/chips_8_9/BDD-to-Drive-a-New-Feature/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20251206-43792-1scul9l/byebug
